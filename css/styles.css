@@ -58,7 +58,6 @@ a.navbar-brand {
 }
 
 .featured-box {
-    text-align: center;
     padding: 5% 60%;
 }
 
@@ -69,7 +68,6 @@ a.navbar-brand {
 }
 
 .icon {
-    color: #ef8172;
     margin-bottom: 1rem;
 }
 
@@ -79,7 +77,6 @@ a.navbar-brand {
 
 /* testimonial */
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -90,15 +87,19 @@ a.navbar-brand {
     margin: 20px;
 }
 
-#press {
+/* all text align to center */
+#press, #pricing, .cta, .featured-box, #footer, #testimonials {
     text-align: center;
+} 
+
+#press {
     background-color: #ef8172;
     padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 50px;
+    width: 12%;
+    margin: 30px 60px;
 }
 
 .carousel-item {
@@ -113,7 +114,6 @@ a.navbar-brand {
 /* pricing */
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
@@ -130,11 +130,9 @@ a.navbar-brand {
 
 .cta {
     padding: 7% 15%;
-    text-align: center;
 }
 
 #footer {
-    text-align: center;
     padding: 3% 0;
 }
 
